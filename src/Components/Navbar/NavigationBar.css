@@ -1,0 +1,5 @@
+.active {
+    background: transparent;
+    color: blue;
+    text-decoration: line-through;
+}

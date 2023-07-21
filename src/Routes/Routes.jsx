@@ -3,6 +3,7 @@ import Login from "../Pages/LoginRegister/Login";
 import Register from "../Pages/LoginRegister/Register";
 import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home";
+import NotFound from "../Pages/NotFound/NotFound";
 
 const router = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
                 element: <Register></Register>,
             },
         ],
+    },
+    {
+        path: "/*",
+        element: <NotFound></NotFound>,
     },
 ]);
 
