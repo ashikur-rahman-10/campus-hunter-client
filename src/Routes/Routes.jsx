@@ -5,6 +5,10 @@ import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home/Home";
 import NotFound from "../Pages/NotFound/NotFound";
 import CollegeDetails from "../Pages/Home/CollegeDetails/CollegeDetails";
+import Colleges from "../Pages/Colleges/Colleges";
+import Admission from "../Pages/Admission/Admission";
+import UserProfile from "../Pages/Profile/UserProfile";
+import EditProfile from "../Pages/Profile/EditProfile";
 
 const router = createBrowserRouter([
     {
@@ -28,6 +32,22 @@ const router = createBrowserRouter([
                 element: <CollegeDetails></CollegeDetails>,
                 loader: ({ params }) =>
                     fetch(`http://localhost:5000/college/${params.id}`),
+            },
+            {
+                path: "/colleges",
+                element: <Colleges></Colleges>,
+            },
+            {
+                path: "/admission",
+                element: <Admission></Admission>,
+            },
+            {
+                path: "/profile/:email",
+                element: <UserProfile />,
+            },
+            {
+                path: "/edit-profile/:id",
+                element: <EditProfile></EditProfile>,
             },
         ],
     },

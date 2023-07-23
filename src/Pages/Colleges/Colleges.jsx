@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
-import RecommendedCollegeCard from "../../../../Components/CollegeCard/RecommendedCollegeCard";
+import RecommendedCollegeCard from "../../Components/CollegeCard/RecommendedCollegeCard";
 
-const RecommendedCollege = () => {
+const Colleges = () => {
     const [colleges, setColleges] = useState();
     const [loading, setLoading] = useState(true);
+
     useEffect(() => {
         fetch("http://localhost:5000/colleges")
             .then((res) => res.json())
@@ -15,17 +16,21 @@ const RecommendedCollege = () => {
     if (loading) {
         return <h1>Loading...</h1>;
     }
-    const recommendedColleges = colleges?.slice(0, 3);
-
+    // Scroll to top
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+    });
     return (
-        <div className="min-h-screen w-full py-16">
+        <div className="min-h-screen w-full pb-16 pt-20 px-4">
             <h1 className="md:text-4xl text-2xl font-semibold text-center pb-10">
-                --Recomended For You--
+                --All Colleges--
             </h1>
             <div className="flex flex-col w-[90%] mx-auto gap-8">
-                {recommendedColleges.map((clg, index) => (
+                {colleges.map((clg, index) => (
                     <RecommendedCollegeCard
-                        key={index}
+                        key={clg._id}
                         clg={clg}
                     ></RecommendedCollegeCard>
                 ))}
@@ -34,4 +39,4 @@ const RecommendedCollege = () => {
     );
 };
 
-export default RecommendedCollege;
+export default Colleges;

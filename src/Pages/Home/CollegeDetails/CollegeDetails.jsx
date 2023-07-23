@@ -15,12 +15,18 @@ const CollegeDetails = () => {
         researchWorks,
         admissionProcess,
     } = college;
+    // Scroll to top
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+    });
     return (
         <div className="w-full min-h-screen py-20 px-4">
             <div>
                 <div>
                     <img
-                        className="max-w-3xl w-full mx-auto"
+                        className="max-w-3xl w-full mx-auto rounded-sm"
                         src={collegeImage}
                         alt=""
                     />
@@ -45,8 +51,10 @@ const CollegeDetails = () => {
                                             Authors:
                                             <ul className="list-disc pl-5">
                                                 {researchWork.authors.map(
-                                                    (author) => (
-                                                        <li>{author}</li>
+                                                    (author, index) => (
+                                                        <li key={index}>
+                                                            {author}
+                                                        </li>
                                                     )
                                                 )}
                                             </ul>
@@ -89,8 +97,10 @@ const CollegeDetails = () => {
                                         </p>
                                         <ul className="list-disc">
                                             {s.achievements.map(
-                                                (achievement) => (
-                                                    <li>{achievement}</li>
+                                                (achievement, index) => (
+                                                    <li key={index}>
+                                                        {achievement}
+                                                    </li>
                                                 )
                                             )}
                                         </ul>

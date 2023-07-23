@@ -17,16 +17,15 @@ const GoogleLogin = () => {
                     name: displayName,
                     photoURL,
                     email,
-                    role: "Student",
                 };
                 // console.log(savedUser);
-                // fetch("https://modonovo-server.vercel.app/users", {
-                //     method: "POST",
-                //     headers: {
-                //         "Content-Type": "application/json",
-                //     },
-                //     body: JSON.stringify(savedUser),
-                // });
+                fetch("http://localhost:5000/users", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify(savedUser),
+                });
                 Swal.fire({
                     icon: "success",
                     title: "Login Successful",

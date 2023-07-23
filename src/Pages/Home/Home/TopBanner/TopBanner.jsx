@@ -1,15 +1,14 @@
 import React from "react";
-import topbanner from "../../../../assets/topBanner.jpg";
 
 const TopBanner = () => {
     return (
         <div className="min-h-screen w-full bg-[url('https://i.ibb.co/CM25gst/diverse-young-male-female-student-holding-books-takeaway-coffee-cup-standing-front-building.jpg')] bg-fixed ">
             <div className="min-h-screen w-full bg-gradient-to-r from-[#b0a0c974] to-[#262426b7] bg-fixed bg-opacity-25 flex justify-center items-center">
                 <div className="flex flex-col items-center gap-8">
-                    <h1 className="text-6xl text-white font-semibold">
+                    <h1 className="md:text-6xl text-3xl text-white font-semibold">
                         Find Your Dream College.
                     </h1>
-                    <div className="form-control w-full md:w-96">
+                    <div className="form-control w-[80%] md:w-96">
                         <div className="input-group">
                             <input
                                 type="text"
