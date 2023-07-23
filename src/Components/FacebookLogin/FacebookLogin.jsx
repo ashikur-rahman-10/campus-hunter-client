@@ -1,24 +1,20 @@
 import React from "react";
 import useAuth from "../../Hooks/useAuth";
-import Swal from "sweetalert2";
-import { useLocation, useNavigate } from "react-router-dom";
 
-const GoogleLogin = () => {
-    const { googleLogin } = useAuth();
-    const location = useLocation();
-    const from = location.state?.pathname || "/";
-    const navigate = useNavigate();
-    const handleGoogleLogin = () => {
-        googleLogin()
+const FacebookLogin = () => {
+    const { facebookLogin } = useAuth();
+    const handleFacebookLogin = () => {
+        facebookLogin()
             .then((result) => {
                 const loggedUser = result.user;
-                const { displayName, photoURL, email } = loggedUser;
-                const savedUser = {
-                    name: displayName,
-                    photoURL,
-                    email,
-                    role: "Student",
-                };
+                console.log(loggedUser);
+                // const { displayName, photoURL, email } = loggedUser;
+                // const savedUser = {
+                //     name: displayName,
+                //     photoURL,
+                //     email,
+                //     role: "Student",
+                // };
                 // console.log(savedUser);
                 // fetch("https://modonovo-server.vercel.app/users", {
                 //     method: "POST",
@@ -44,13 +40,13 @@ const GoogleLogin = () => {
     return (
         <div className="w-fit flex justify-center items-center mb-5 ">
             <img
-                onClick={handleGoogleLogin}
+                onClick={handleFacebookLogin}
                 className="w-10 border p-1 rounded-full bg-slate-100 hover:saturate-0 cursor-pointer"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/882px-Google_%22G%22_Logo.svg.png?20230305195327"
+                src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg"
                 alt=""
             />
         </div>
     );
 };
 
-export default GoogleLogin;
+export default FacebookLogin;

@@ -1,0 +1,69 @@
+{
+    "collegeImage": "https://i.ibb.co/sK8D1RQ/harvard-university-cambridge-usa.jpg",
+    "collegeName": "ABC University",
+    "admissionDates": "August 15 - September 30",
+    "events": [
+        "Orientation Day",
+        "Career Fair",
+        "Annual Fest"
+    ],
+    "researchHistory": "Established in 1950, ABC University has a rich research tradition.",
+    "sports": [
+        "Football",
+        "Basketball",
+        "Swimming"
+    ],
+    "admissionProcess": "1. Submit an online application. 2. Attend an entrance exam. 3. Interview with faculty.",
+    "eventsDetails": {
+        "Orientation Day": "An event to welcome new students and provide information about college life.",
+        "Career Fair": "A fair where students can explore job opportunities and network with companies.",
+        "Annual Fest": "A grand celebration with cultural performances, games, and food stalls."
+    },
+    "researchWorks": [
+        {
+            "title": "Advancements in Renewable Energy",
+            "authors": [
+                "John Smith",
+                "Emily Johnson"
+            ],
+            "publishedYear": 2022,
+            "summary": "This research explores new breakthroughs in renewable energy sources."
+        },
+        {
+            "title": "The Impact of Climate Change on Biodiversity",
+            "authors": [
+                "Sarah Lee",
+                "Michael Brown",
+                "Amanda Miller"
+            ],
+            "publishedYear": 2021,
+            "summary": "Examines the effects of climate change on various species and ecosystems."
+        }
+    ],
+    "sportsCategories": [
+        {
+            "sportName": "Football",
+            "coach": "David Wilson",
+            "achievements": [
+                "National Champions 2019",
+                "Regional Champions 2020"
+            ]
+        },
+        {
+            "sportName": "Basketball",
+            "coach": "Lisa Thompson",
+            "achievements": [
+                "Conference Champions 2022",
+                "MVP: James Johnson"
+            ]
+        },
+        {
+            "sportName": "Swimming",
+            "coach": "Michael Adams",
+            "achievements": [
+                "Olympic Gold Medalists: 2016, 2020"
+            ]
+        }
+    ],
+    "ratings": 4
+}

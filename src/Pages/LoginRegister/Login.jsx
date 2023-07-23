@@ -8,15 +8,14 @@ import GoogleLogin from "../../Components/GoogleLogin/GoogleLogin";
 import Swal from "sweetalert2";
 import useAuth from "../../Hooks/useAuth";
 import { Helmet } from "react-helmet-async";
+import FacebookLogin from "../../Components/FacebookLogin/FacebookLogin";
 
 const Login = () => {
     const [show, setShow] = useState(false);
     const [error, setError] = useState("");
-    const { loginWithPass } = useAuth();
+    const { loginWithPass, passwordReset } = useAuth();
     const location = useLocation();
     const from = location?.state?.pathname || "/";
-
-    // console.log({ from });
     const navigate = useNavigate();
     const {
         register,
@@ -43,6 +42,37 @@ const Login = () => {
                 setError(error.message);
                 console.log(error.message);
             });
+    };
+    const handleForgetPass = () => {
+        Swal.fire({
+            title: "Submit your email",
+            input: "email",
+            inputAttributes: {
+                autocapitalize: "off",
+            },
+            showCancelButton: true,
+            confirmButtonText: "Submit",
+            showLoaderOnConfirm: true,
+            preConfirm: (email) => {
+                passwordReset(email)
+                    .then((result) => {
+                        Swal.fire({
+                            title: "Please check your Inbox!",
+                            text: "We sent you a Password reset email",
+                        });
+                    })
+                    .catch((error) => {
+                        Swal.fire({
+                            title: "Please check your email!",
+                            text: "You provide a wrong email.",
+                        });
+                    });
+            },
+            allowOutsideClick: () => !Swal.isLoading(),
+        }).then((result) => {
+            if (result.isConfirmed) {
+            }
+        });
     };
 
     // Scroll to top
@@ -118,8 +148,19 @@ const Login = () => {
                                 className="input input-bordered w-full hover:bg-transparent hover:text-info bg-info text-white my-7 input-info"
                             />
                         </div>
+                        <div className="flex items-center justify-center">
+                            <Link
+                                onClick={handleForgetPass}
+                                className="text-xs hover:underline text-error font-medium"
+                            >
+                                Forget Password?
+                            </Link>
+                        </div>
                         <div className="divider">Or</div>
-                        <GoogleLogin></GoogleLogin>
+                        <div className="flex gap-4 justify-center items-center ">
+                            <GoogleLogin></GoogleLogin>
+                            <FacebookLogin></FacebookLogin>
+                        </div>
                         <div className="flex items-center justify-center">
                             <Link
                                 to={"/register"}

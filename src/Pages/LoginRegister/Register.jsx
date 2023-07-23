@@ -7,6 +7,7 @@ import GoogleLogin from "../../Components/GoogleLogin/GoogleLogin";
 import useAuth from "../../Hooks/useAuth";
 import Swal from "sweetalert2";
 import { Helmet } from "react-helmet-async";
+import FacebookLogin from "../../Components/FacebookLogin/FacebookLogin";
 
 const Register = () => {
     const { createUser, updateUser, logout } = useAuth();
@@ -235,7 +236,10 @@ const Register = () => {
                             />
                         </div>
                         <div className="divider">Or</div>
-                        <GoogleLogin></GoogleLogin>
+                        <div className="flex gap-4 justify-center items-center ">
+                            <GoogleLogin></GoogleLogin>
+                            <FacebookLogin></FacebookLogin>
+                        </div>
                         <div className="flex items-center justify-center">
                             <Link
                                 to={"/login"}

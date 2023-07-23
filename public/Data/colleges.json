@@ -1,0 +1,731 @@
+[
+    {
+        "collegeImage": "https://i.ibb.co/sK8D1RQ/harvard-university-cambridge-usa.jpg",
+        "collegeName": "ABC University",
+        "admissionDates": "August 15 - September 30",
+        "researchHistory": "Established in 1950, ABC University has a rich research tradition.",
+        "admissionProcess": [
+            "Submit an online application.",
+            "Attend an entrance exam.",
+            "Interview with faculty."
+        ],
+        "eventsDetails": [
+            {
+                "event": "Orientation Day",
+                "details": "An event to welcome new students and provide information about college life."
+            },
+            {
+                "event": "Career Fair",
+                "details": "A fair where students can explore job opportunities and network with companies."
+            },
+            {
+                "event": "Annual Fest",
+                "details": "A grand celebration with cultural performances, games, and food stalls."
+            }
+        ],
+        "researchWorks": [
+            {
+                "title": "Advancements in Renewable Energy",
+                "authors": [
+                    "John Smith",
+                    "Emily Johnson"
+                ],
+                "publishedYear": 2022,
+                "summary": "This research explores new breakthroughs in renewable energy sources."
+            },
+            {
+                "title": "The Impact of Climate Change on Biodiversity",
+                "authors": [
+                    "Sarah Lee",
+                    "Michael Brown",
+                    "Amanda Miller"
+                ],
+                "publishedYear": 2021,
+                "summary": "Examines the effects of climate change on various species and ecosystems."
+            }
+        ],
+        "sportsCategories": [
+            {
+                "sportName": "Football",
+                "coach": "David Wilson",
+                "achievements": [
+                    "National Champions 2019",
+                    "Regional Champions 2020"
+                ]
+            },
+            {
+                "sportName": "Basketball",
+                "coach": "Lisa Thompson",
+                "achievements": [
+                    "Conference Champions 2022",
+                    "MVP: James Johnson"
+                ]
+            },
+            {
+                "sportName": "Swimming",
+                "coach": "Michael Adams",
+                "achievements": [
+                    "Olympic Gold Medalists: 2016, 2020"
+                ]
+            }
+        ],
+        "ratings": 4
+    },
+    {
+        "collegeImage": "https://i.ibb.co/zPyqW07/architecture-independence-palace-ho-chi-minh-city.jpg",
+        "collegeName": "XYZ College",
+        "admissionDates": "September 1 - October 15",
+        "researchHistory": "XYZ College is known for its cutting-edge research in various fields.",
+        "admissionProcess": [
+            "Fill out the online application form.",
+            "Appear for the admission test.",
+            "Participate in the group discussion.",
+            "Attend the personal interview with faculty members."
+        ],
+        "eventsDetails": [
+            {
+                "event": "Welcome Day",
+                "details": "A special event to welcome new students and introduce them to campus life."
+            },
+            {
+                "event": "Internship Fair",
+                "details": "An opportunity for students to explore internships with top companies."
+            },
+            {
+                "event": "Cultural Fest",
+                "details": "A week-long celebration of cultural diversity with music, dance, and food from around the world."
+            }
+        ],
+        "researchWorks": [
+            {
+                "title": "Artificial Intelligence and Machine Learning",
+                "authors": [
+                    "Jennifer Adams",
+                    "Robert Johnson",
+                    "Michelle Lee"
+                ],
+                "publishedYear": 2023,
+                "summary": "Exploring the applications of AI and ML in various industries."
+            },
+            {
+                "title": "Advances in Medicine",
+                "authors": [
+                    "Andrew Wilson",
+                    "Sophia Martinez"
+                ],
+                "publishedYear": 2021,
+                "summary": "Medical research breakthroughs in treating complex diseases."
+            }
+        ],
+        "sportsCategories": [
+            {
+                "sportName": "Cricket",
+                "coach": "Michael Turner",
+                "achievements": [
+                    "Intercollegiate Champions 2020",
+                    "Regional Tournament Winners 2021"
+                ]
+            },
+            {
+                "sportName": "Tennis",
+                "coach": "Emma Thompson",
+                "achievements": [
+                    "National Singles Champion 2022",
+                    "Doubles Championship 2023"
+                ]
+            },
+            {
+                "sportName": "Swimming",
+                "coach": "Oliver Adams",
+                "achievements": [
+                    "State Swimming Championship 2021",
+                    "University Aquatics Meet 2022"
+                ]
+            }
+        ],
+        "ratings": 4.5
+    },
+    {
+        "collegeImage": "https://i.ibb.co/yFVqWpW/city-building-along-road-daytime.jpg",
+        "collegeName": "DEF Institute of Technology",
+        "admissionDates": "July 1 - August 31",
+        "researchHistory": "DEF Institute of Technology is renowned for its innovations in technology and engineering.",
+        "admissionProcess": [
+            "Submit the online application form.",
+            "Appear for the entrance exam.",
+            "Participate in the group discussion and personal interview."
+        ],
+        "eventsDetails": [
+            {
+                "event": "Tech Expo",
+                "details": "An exhibition showcasing the latest technological advancements and student projects."
+            },
+            {
+                "event": "Hackathon",
+                "details": "A programming competition where students develop innovative solutions to real-world problems."
+            },
+            {
+                "event": "Cultural Week",
+                "details": "A week-long celebration of diverse cultures through dance, music, and art."
+            }
+        ],
+        "researchWorks": [
+            {
+                "title": "Advancements in Robotics",
+                "authors": [
+                    "Michael Anderson",
+                    "Sophie White"
+                ],
+                "publishedYear": 2023,
+                "summary": "Exploring the applications of robotics in industries like manufacturing and healthcare."
+            },
+            {
+                "title": "Artificial Intelligence in Education",
+                "authors": [
+                    "David Brown",
+                    "Emily Davis",
+                    "Robert Moore"
+                ],
+                "publishedYear": 2021,
+                "summary": "Investigating the potential of AI in revolutionizing the education sector."
+            }
+        ],
+        "sportsCategories": [
+            {
+                "sportName": "Soccer",
+                "coach": "Alex Turner",
+                "achievements": [
+                    "Intercollegiate Soccer Champions 2020",
+                    "Regional Soccer Tournament Winners 2021"
+                ]
+            },
+            {
+                "sportName": "Basketball",
+                "coach": "Sophia Williams",
+                "achievements": [
+                    "University Basketball Championship 2022",
+                    "MVP: Daniel Johnson"
+                ]
+            },
+            {
+                "sportName": "Athletics",
+                "coach": "John Adams",
+                "achievements": [
+                    "State Athletics Meet 2021",
+                    "National Athletics Championship 2022"
+                ]
+            }
+        ],
+        "ratings": 4.2
+    },
+    {
+        "collegeImage": "https://i.ibb.co/pQt236x/school-teaching-building.jpg",
+        "collegeName": "GHI Business School",
+        "admissionDates": "September 15 - October 31",
+        "researchHistory": "GHI Business School excels in providing top-notch business education and fostering entrepreneurship.",
+        "admissionProcess": [
+            "Submit the online application form along with the statement of purpose.",
+            "Appear for the entrance exam or submit GMAT/GRE scores.",
+            "Participate in the personal interview and group discussion."
+        ],
+        "eventsDetails": [
+            {
+                "event": "Entrepreneurship Summit",
+                "details": "A conference bringing together successful entrepreneurs and aspiring business leaders."
+            },
+            {
+                "event": "Marketing Fair",
+                "details": "A fair showcasing marketing strategies and campaigns developed by students."
+            },
+            {
+                "event": "Annual Alumni Meet",
+                "details": "An event where alumni network, share experiences, and mentor current students."
+            }
+        ],
+        "researchWorks": [
+            {
+                "title": "Business Ethics and Corporate Social Responsibility",
+                "authors": [
+                    "Sophia Johnson",
+                    "Daniel Brown"
+                ],
+                "publishedYear": 2023,
+                "summary": "Exploring the role of businesses in addressing societal and environmental challenges."
+            },
+            {
+                "title": "Financial Innovations in the Digital Age",
+                "authors": [
+                    "Michael Turner",
+                    "Emma Davis",
+                    "Oliver Moore"
+                ],
+                "publishedYear": 2021,
+                "summary": "Analyzing the impact of digital technologies on the financial industry."
+            }
+        ],
+        "sportsCategories": [
+            {
+                "sportName": "Cricket",
+                "coach": "Robert Thompson",
+                "achievements": [
+                    "Intercollegiate Cricket Champions 2022",
+                    "University Cricket Tournament Winners 2023"
+                ]
+            },
+            {
+                "sportName": "Badminton",
+                "coach": "Emily Adams",
+                "achievements": [
+                    "University Badminton Championship 2021",
+                    "National Badminton Singles Title 2022"
+                ]
+            },
+            {
+                "sportName": "Table Tennis",
+                "coach": "Daniel Wilson",
+                "achievements": [
+                    "Intercollegiate Table Tennis Champions 2021",
+                    "Regional Table Tennis Tournament Winners 2022"
+                ]
+            }
+        ],
+        "ratings": 4.7
+    },
+    {
+        "collegeImage": "https://i.ibb.co/VJzGLsK/closeup-shot-two-domed-towers-old-royal-naval-college-greenwich-london.jpg",
+        "collegeName": "JKL Arts Institute",
+        "admissionDates": "October 1 - November 15",
+        "researchHistory": "JKL Arts Institute is a hub for creativity, offering a diverse range of artistic programs.",
+        "admissionProcess": [
+            "Fill out the online application form and submit a portfolio showcasing your creative works.",
+            "Participate in the aptitude test or audition, depending on the chosen discipline.",
+            "Attend the personal interview and interaction with faculty members."
+        ],
+        "eventsDetails": [
+            {
+                "event": "Art Exhibition",
+                "details": "An annual showcase of art and design projects by students, faculty, and alumni."
+            },
+            {
+                "event": "Fashion Show",
+                "details": "A glamorous event where students present their fashion collections on the runway."
+            },
+            {
+                "event": "Film Festival",
+                "details": "A celebration of student-made films, showcasing creativity in storytelling."
+            }
+        ],
+        "researchWorks": [
+            {
+                "title": "Modern Art Movements",
+                "authors": [
+                    "Sophie Johnson",
+                    "David Brown"
+                ],
+                "publishedYear": 2023,
+                "summary": "An exploration of significant art movements shaping contemporary art."
+            },
+            {
+                "title": "Sustainable Design",
+                "authors": [
+                    "Oliver Moore",
+                    "Emma Thompson",
+                    "Michael Anderson"
+                ],
+                "publishedYear": 2021,
+                "summary": "Investigating the role of design in creating sustainable and eco-friendly solutions."
+            }
+        ],
+        "sportsCategories": [
+            {
+                "sportName": "Swimming",
+                "coach": "John Wilson",
+                "achievements": [
+                    "Intercollegiate Swimming Champions 2022",
+                    "State Swimming Championship 2023"
+                ]
+            },
+            {
+                "sportName": "Basketball",
+                "coach": "Sophia Davis",
+                "achievements": [
+                    "University Basketball Championship 2021",
+                    "MVP: Robert Johnson"
+                ]
+            },
+            {
+                "sportName": "Athletics",
+                "coach": "Daniel Adams",
+                "achievements": [
+                    "University Athletics Meet 2022",
+                    "National Long Jump Title 2023"
+                ]
+            }
+        ],
+        "ratings": 4.9
+    },
+    {
+        "collegeImage": "https://i.ibb.co/7yBvZHc/red-buildings-households.jpg",
+        "collegeName": "MNO Medical College",
+        "admissionDates": "July 15 - August 31",
+        "researchHistory": "MNO Medical College is dedicated to excellence in medical education and healthcare research.",
+        "admissionProcess": [
+            "Submit the online application form along with academic records.",
+            "Appear for the medical entrance exam or submit NEET scores.",
+            "Participate in the counseling session and medical fitness test."
+        ],
+        "eventsDetails": [
+            {
+                "event": "Health Camp",
+                "details": "A camp where medical services are provided to underserved communities."
+            },
+            {
+                "event": "Medical Conference",
+                "details": "A gathering of medical professionals to discuss advancements in healthcare."
+            },
+            {
+                "event": "White Coat Ceremony",
+                "details": "A symbolic event welcoming new medical students to the profession."
+            }
+        ],
+        "researchWorks": [
+            {
+                "title": "Advances in Medical Imaging",
+                "authors": [
+                    "Robert Johnson",
+                    "Sophie White"
+                ],
+                "publishedYear": 2023,
+                "summary": "Investigating the latest technologies in medical imaging for accurate diagnoses."
+            },
+            {
+                "title": "Mental Health Awareness",
+                "authors": [
+                    "Michael Anderson",
+                    "Emma Davis"
+                ],
+                "publishedYear": 2021,
+                "summary": "Addressing the importance of mental health and destigmatizing mental illnesses."
+            }
+        ],
+        "sportsCategories": [
+            {
+                "sportName": "Football",
+                "coach": "David Adams",
+                "achievements": [
+                    "Intercollegiate Football Champions 2022",
+                    "State Football Tournament Winners 2023"
+                ]
+            },
+            {
+                "sportName": "Table Tennis",
+                "coach": "Emily Turner",
+                "achievements": [
+                    "University Table Tennis Championship 2021",
+                    "National Table Tennis Singles Title 2022"
+                ]
+            },
+            {
+                "sportName": "Athletics",
+                "coach": "John Thompson",
+                "achievements": [
+                    "Intercollegiate Athletics Meet 2022",
+                    "Regional Long Jump Title 2023"
+                ]
+            }
+        ],
+        "ratings": 4.6
+    },
+    {
+        "collegeImage": "https://i.ibb.co/jwqXWTz/modern-amphitheater-usa.jpg",
+        "collegeName": "PQR Law School",
+        "admissionDates": "September 1 - October 15",
+        "researchHistory": "PQR Law School is renowned for producing outstanding legal professionals and scholars.",
+        "admissionProcess": [
+            "Fill out the online application form and submit academic transcripts.",
+            "Appear for the law entrance exam or submit LSAT scores.",
+            "Participate in the personal interview and group discussion."
+        ],
+        "eventsDetails": [
+            {
+                "event": "Legal Symposium",
+                "details": "An annual gathering of legal experts discussing contemporary legal issues."
+            },
+            {
+                "event": "Moot Court Competition",
+                "details": "A mock trial competition where students argue legal cases before judges."
+            },
+            {
+                "event": "Cultural Fest",
+                "details": "A celebration of cultural diversity through music, dance, and art performances."
+            }
+        ],
+        "researchWorks": [
+            {
+                "title": "Human Rights and Social Justice",
+                "authors": [
+                    "Sophia Davis",
+                    "Michael Johnson"
+                ],
+                "publishedYear": 2023,
+                "summary": "Examining the role of law in promoting human rights and ensuring social justice."
+            },
+            {
+                "title": "Intellectual Property Law",
+                "authors": [
+                    "Emma Thompson",
+                    "Daniel Moore",
+                    "Oliver Adams"
+                ],
+                "publishedYear": 2021,
+                "summary": "Analyzing the legal framework for protecting intellectual property rights."
+            }
+        ],
+        "sportsCategories": [
+            {
+                "sportName": "Cricket",
+                "coach": "David Anderson",
+                "achievements": [
+                    "Intercollegiate Cricket Champions 2021",
+                    "National Cricket Tournament Winners 2022"
+                ]
+            },
+            {
+                "sportName": "Basketball",
+                "coach": "Emily Turner",
+                "achievements": [
+                    "University Basketball Championship 2023",
+                    "MVP: Robert Johnson"
+                ]
+            },
+            {
+                "sportName": "Volleyball",
+                "coach": "John Wilson",
+                "achievements": [
+                    "Intercollegiate Volleyball Champions 2022",
+                    "State Volleyball Tournament Winners 2023"
+                ]
+            }
+        ],
+        "ratings": 4.8
+    },
+    {
+        "collegeImage": "https://i.ibb.co/zPyqW07/architecture-independence-palace-ho-chi-minh-city.jpg",
+        "collegeName": "STU Medical University",
+        "admissionDates": "July 1 - August 31",
+        "researchHistory": "STU Medical University is a leading institution for medical research and patient care.",
+        "admissionProcess": [
+            "Complete the online application form and submit academic records.",
+            "Appear for the medical entrance exam or submit NEET scores.",
+            "Participate in the counseling session and medical fitness test."
+        ],
+        "eventsDetails": [
+            {
+                "event": "Medical Camp",
+                "details": "A camp where medical services are provided to rural and underserved communities."
+            },
+            {
+                "event": "Medical Conference",
+                "details": "A conference presenting the latest advancements in medical science and technology."
+            },
+            {
+                "event": "Graduation Ceremony",
+                "details": "A memorable event celebrating the achievements of graduating medical students."
+            }
+        ],
+        "researchWorks": [
+            {
+                "title": "Precision Medicine",
+                "authors": [
+                    "Sophia Johnson",
+                    "Daniel Brown"
+                ],
+                "publishedYear": 2023,
+                "summary": "Exploring the personalized approach to medical treatment based on individual genetics."
+            },
+            {
+                "title": "Global Health Challenges",
+                "authors": [
+                    "Oliver Moore",
+                    "Emma Davis",
+                    "Michael Anderson"
+                ],
+                "publishedYear": 2021,
+                "summary": "Addressing the major health challenges faced by communities worldwide."
+            }
+        ],
+        "sportsCategories": [
+            {
+                "sportName": "Football",
+                "coach": "David Thompson",
+                "achievements": [
+                    "Intercollegiate Football Champions 2022",
+                    "National Football Tournament Winners 2023"
+                ]
+            },
+            {
+                "sportName": "Basketball",
+                "coach": "Emily Adams",
+                "achievements": [
+                    "University Basketball Championship 2021",
+                    "MVP: Robert Johnson"
+                ]
+            },
+            {
+                "sportName": "Athletics",
+                "coach": "John Wilson",
+                "achievements": [
+                    "Intercollegiate Athletics Meet 2023",
+                    "National Long Jump Title 2024"
+                ]
+            }
+        ],
+        "ratings": 4.5
+    },
+    {
+        "collegeImage": "https://i.ibb.co/yFVqWpW/city-building-along-road-daytime.jpg",
+        "collegeName": "VWX Environmental Institute",
+        "admissionDates": "October 15 - November 30",
+        "researchHistory": "VWX Environmental Institute is committed to environmental conservation and sustainability.",
+        "admissionProcess": [
+            "Fill out the online application form and submit academic transcripts.",
+            "Participate in the interview focusing on environmental awareness and passion.",
+            "Submit a statement of purpose detailing your interest in environmental studies."
+        ],
+        "eventsDetails": [
+            {
+                "event": "Earth Day Celebration",
+                "details": "A day dedicated to raising awareness about environmental issues and conservation."
+            },
+            {
+                "event": "Green Innovation Expo",
+                "details": "An exhibition showcasing eco-friendly technologies and sustainable solutions."
+            },
+            {
+                "event": "Tree Plantation Drive",
+                "details": "A campaign to plant trees and promote a greener campus and community."
+            }
+        ],
+        "researchWorks": [
+            {
+                "title": "Climate Change Mitigation",
+                "authors": [
+                    "Sophia Adams",
+                    "Michael Johnson"
+                ],
+                "publishedYear": 2022,
+                "summary": "Examining strategies to mitigate the impacts of climate change on ecosystems."
+            },
+            {
+                "title": "Sustainable Development Goals",
+                "authors": [
+                    "Emma Thompson",
+                    "Oliver Moore",
+                    "Daniel Brown"
+                ],
+                "publishedYear": 2021,
+                "summary": "Analyzing the progress and challenges in achieving the UN's sustainable development goals."
+            }
+        ],
+        "sportsCategories": [
+            {
+                "sportName": "Football",
+                "coach": "David Turner",
+                "achievements": [
+                    "Intercollegiate Football Champions 2023",
+                    "State Football Tournament Winners 2024"
+                ]
+            },
+            {
+                "sportName": "Volleyball",
+                "coach": "Emily Adams",
+                "achievements": [
+                    "Intercollegiate Volleyball Champions 2021",
+                    "National Volleyball Tournament Winners 2022"
+                ]
+            },
+            {
+                "sportName": "Cricket",
+                "coach": "John Thompson",
+                "achievements": [
+                    "University Cricket Championship 2023",
+                    "MVP: Robert Wilson"
+                ]
+            }
+        ],
+        "ratings": 4.7
+    },
+    {
+        "collegeImage": "https://i.ibb.co/VJzGLsK/closeup-shot-two-domed-towers-old-royal-naval-college-greenwich-london.jpg",
+        "collegeName": "JKL Arts Institute",
+        "admissionDates": "October 1 - November 15",
+        "researchHistory": "JKL Arts Institute is a hub for creativity, offering a diverse range of artistic programs.",
+        "admissionProcess": [
+            "Fill out the online application form and submit a portfolio showcasing your creative works.",
+            "Participate in the aptitude test or audition, depending on the chosen discipline.",
+            "Attend the personal interview and interaction with faculty members."
+        ],
+        "eventsDetails": [
+            {
+                "event": "Art Exhibition",
+                "details": "An annual showcase of art and design projects by students, faculty, and alumni."
+            },
+            {
+                "event": "Fashion Show",
+                "details": "A glamorous event where students present their fashion collections on the runway."
+            },
+            {
+                "event": "Film Festival",
+                "details": "A celebration of student-made films, showcasing creativity in storytelling."
+            }
+        ],
+        "researchWorks": [
+            {
+                "title": "Modern Art Movements",
+                "authors": [
+                    "Sophie Johnson",
+                    "David Brown"
+                ],
+                "publishedYear": 2023,
+                "summary": "An exploration of significant art movements shaping contemporary art."
+            },
+            {
+                "title": "Sustainable Design",
+                "authors": [
+                    "Oliver Moore",
+                    "Emma Thompson",
+                    "Michael Anderson"
+                ],
+                "publishedYear": 2021,
+                "summary": "Investigating the role of design in creating sustainable and eco-friendly solutions."
+            }
+        ],
+        "sportsCategories": [
+            {
+                "sportName": "Swimming",
+                "coach": "John Wilson",
+                "achievements": [
+                    "Intercollegiate Swimming Champions 2022",
+                    "State Swimming Championship 2023"
+                ]
+            },
+            {
+                "sportName": "Basketball",
+                "coach": "Sophia Davis",
+                "achievements": [
+                    "University Basketball Championship 2021",
+                    "MVP: Robert Johnson"
+                ]
+            },
+            {
+                "sportName": "Athletics",
+                "coach": "Daniel Adams",
+                "achievements": [
+                    "University Athletics Meet 2022",
+                    "National Long Jump Title 2023"
+                ]
+            }
+        ],
+        "ratings": 4.9
+    }
+]

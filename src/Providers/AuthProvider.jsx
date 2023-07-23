@@ -1,9 +1,11 @@
 import React, { createContext, useEffect, useState } from "react";
 import {
+    FacebookAuthProvider,
     GoogleAuthProvider,
     createUserWithEmailAndPassword,
     getAuth,
     onAuthStateChanged,
+    sendPasswordResetEmail,
     signInWithEmailAndPassword,
     signInWithPopup,
     signOut,
@@ -17,6 +19,7 @@ const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null);
     const [loading, setLoading] = useState(true);
     const googleProvider = new GoogleAuthProvider();
+    const facebookProvider = new FacebookAuthProvider();
 
     // Create user with Email
     const createUser = (email, password) => {
@@ -48,6 +51,13 @@ const AuthProvider = ({ children }) => {
         return signOut(auth);
     };
 
+    const passwordReset = (email) => {
+        return sendPasswordResetEmail(auth, email);
+    };
+
+    const facebookLogin = () => {
+        return signInWithPopup(auth, facebookProvider);
+    };
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
             setUser(currentUser);
@@ -66,6 +76,8 @@ const AuthProvider = ({ children }) => {
         createUser,
         loading,
         loginWithPass,
+        passwordReset,
+        facebookLogin,
     };
     return (
         <AuthContext.Provider value={authInfo}>{children}</AuthContext.Provider>
