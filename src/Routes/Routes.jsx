@@ -49,6 +49,10 @@ const router = createBrowserRouter([
                 path: "/edit-profile/:id",
                 element: <EditProfile></EditProfile>,
             },
+            {
+                path: "/admission-form/:id",
+                element: <Admission></Admission>,
+            },
         ],
     },
     {

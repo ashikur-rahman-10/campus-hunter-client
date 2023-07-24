@@ -6,7 +6,7 @@ const Admission = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch("http://localhost:5000/colleges")
+        fetch("https://campus-hunter-server.vercel.app/colleges")
             .then((res) => res.json())
             .then((data) => {
                 setColleges(data);
@@ -46,7 +46,7 @@ const Admission = () => {
                                     <td>{college.admissionDates}</td>
                                     <td>
                                         <Link
-                                            to={`/admission-form/${college._id}`}
+                                            to={`/admission-form/${college?._id}`}
                                             className="btn btn-xs text-white bg-gradient-to-r from-sky-500 to-indigo-500 hover:scale-105 duration-200"
                                         >
                                             Apply
